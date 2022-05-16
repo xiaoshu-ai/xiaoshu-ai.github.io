@@ -1,0 +1,13 @@
+<svg height="90" width="300" version="1.1"
+     xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink">
+    <text x="10" y="60" style="fill:darkblue; font-size: 40px; font-family: monaco">
+        {xiaoshu
+    </text>
+    <text x="196" y="60" style="fill:orange; font-size: 44px; font-family: monaco">
+        .
+    </text>
+    <text x="214" y="60" style="fill:darkblue; font-size: 40px; font-family: monaco">
+        ai}
+    </text>
+</svg>
