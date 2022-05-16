@@ -1,0 +1,6 @@
+[submodule "themes/online-course"]
+	path = themes/online-course
+	url = https://github.com/wowchemy/starter-hugo-online-course.git
+[submodule "themes/fresh"]
+	path = themes/fresh
+	url = https://github.com/StefMa/hugo-fresh.git
