@@ -1,6 +1,6 @@
-baseURL: http://something-fresh.org/
-languageCode: en-us
-title: Hugo Fresh Theme
+baseURL: https://www.dydxdz.xyz/
+languageCode: cn-zh
+title: xiaoshu.ai
 theme: hugo-fresh
 googleAnalytics: # Put in your tracking code without quotes like this: UA-XXXXXX...
 # Disables warnings
