@@ -38,22 +38,28 @@ params:
     # Footer logos (from static/images/logos/clients/___.svg)
     clientlogos:
   navbar:
-  - title: 实验室Lab
-    url: https://lab.xiaoshu.ai/
   - title: 专栏
     sublinks:
-    - title: Python
-      url: /
-    - title: JavaScript
-      url: /
-    - title: Linux操作系统
-      url: /
+    - title: CS101计算机科学基础
+      url: /zhuanlan/cs101/
+    - title: Python编程
+      url: /zhuanlan/python/
+    - title: HTML/CSS/JavaScript
+      url: /zhuanlan/javascript/
+    - title: Linux与Shell
+      url: /zhuanlan/linux-and-shell/
+    - title: Docker与Kubernetes
+      url: /zhuanlan/docker-and-kubernetes/
     - title: TCP/IP协议
-      url: /
+      url: /zhuanlan/tcp-ip/
+    - title: 云计算技术
+      url: /zhuanlan/cloud-computing/
   - title: Playground
     sublinks:
     - title: 在线写Python
       url: https://play.xiaoshu.ai/
+    - title: Python Shell
+      url: https://play.xiaoshu.ai/python-shell/
     - title: 在线玩Linux操作系统
       url: https://play.xiaoshu.ai/linux/
     - title: 在线学Git
@@ -62,99 +68,65 @@ params:
       url: https://play.xiaoshu.ai/scratch/
   - title: Blog
     url: /
-  - title: 登录
-    url: /
+  - title: 关于
+    sublinks:
+    - title: 我是谁
+      link: /
+    - title: 如何选择
+      link: /
+    - title: 关于实验室
+      link: /
+  - title: 进入实验室Lab
+    url: https://lab.xiaoshu.ai/
     button: true
   sidebar:
-  section1:
-    title: Great power comes
-    subtitle: with great responsibility
-    tiles:
-    - title: App builder
-      icon: mouse-globe
-      text: This is some explanatory text that is on two rows
-      url: /
-      buttonText: Free trial
-    - title: Cloud integration
-      icon: laptop-cloud
-      text: This is some explanatory text that is on two rows
-      url: /
-      buttonText: Get started
-    - title: Add-ons & plugins
-      icon: plug-cloud
-      text: This is some explanatory text that is on two rows
-      url: /
-      buttonText: Get started
-  section2:
-    title: You're here because you want the best
-    subtitle: And we know it
-    features:
-    - title: Powerful and unified interface
-      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
-      # Icon (from /images/illustrations/icons/___.svg)
-      icon: laptop-globe
-    - title: Cross-device synchronisation
-      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
-      icon: doc-sync
-    - title: Nomad system
-      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
-      icon: mobile-feed
-  section3:
-    title: One platform
-    subtitle: To rule them all
-    image: illustrations/mockups/app-mockup.png
-    buttonText: Get started
-    buttonLink: "#"
-  section4:
+  section1: false
+  section2: false
+  section3: false
+  section4: false
   section5: false
   footer:
     # Logo (from /images/logos/___)
     logo: fresh-white-alt.svg
     # Social Media Title
-    socialmediatitle: Follow Us
+    socialmediatitle: 关注我
     # Social media links (GitHub, Twitter, etc.). All are optional.
     socialmedia:
-    - link: https://github.com/lucperkins/github-fresh
-      # Icons are from Font Awesome
+    - link: https://github.com/xiaoshu-ai
       icon: github
-    - link: https://dribbble.com/#
-      icon: dribbble
-    - link: https://facebook.com/#
-      icon: facebook
-    - link: https://twitter.com/lucperkins
-      icon: twitter
-    - link: https://bitbucket.org/#
-      icon: bitbucket
+    - link: https://github.com/xiaoshu-ai
+      icon: git
+    - link: https://www.douyin.com/user/MS4wLjABAAAAhBeHtoLlBbSPWyeBXLEI5n4Q2tpuo0FOQSyhEnNOnKdkR5RxoAyasqJP2dW2iVJT
+      icon: tiktok
+    - link: /
+      icon: weixin
+    - link: https://space.bilibili.com/1013505916
+      icon: bilibili
+    - link: https://www.zhihu.com/people/xiaoshu.ai
+      icon: zhihu
     bulmalogo: true
     quicklinks:
       column1:
-        title: "Product"
+        title: 专栏
         links:
-        - text: Discover features
-          link: /
-        - text: Why choose our product?
-          link: /
-        - text: Compare features
-          link: /
-        - text: Our roadmap
-          link: /
-        - text: AGB
-          link: /agb
+        - text: CS101计算机科学基础
+          link: /zhuanlan/cs101/
+        - text: Python编程
+          link: /zhuanlan/python/
+        - text: HTML/CSS/JavaScript
+          link: /zhuanlan/javascript/
+        - text: Linux与Shell
+          link: /zhuanlan/linux-and-shell/
+        - text: Docker/Kubernetes
+          link: /zhuanlan/docker-and-kubernetes/
+        - text: TCP/IP协议
+          link: /zhuanlan/tcp-ip/
       column2:
-        title: "Docs"
+        title: 关于
         links:
-        - text: Get started
+        - text: 我是谁
           link: /
-        - text: User guides
+        - text: 如何选择
           link: /
-        - text: Admin guide
+        - text: 关于实验室
           link: /
-        - text: Developers
-          link: /
-      column3:
-        title: "Blog"
-        links:
-        - text: Latest news
-          link: /blog/first
-        - text: Tech articles
-          link: /blog/second

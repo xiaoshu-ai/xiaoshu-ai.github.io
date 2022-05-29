@@ -6,7 +6,7 @@
 {{- $fontFace     := replace $fontName " " "+" }}
 {{- $fontSizes    := delimit (.Site.Params.font.sizes | default (slice 300 400 600 700)) "," }}
 {{- $fontUrl      := printf "https://fonts.font.im/css?family=%s:%s" $fontFace $fontSizes }}
-<link rel="icon" type="image/png" href="{{ "images/favicon.png" | absURL }}" />
+<link rel="icon" type="image/png" href="{{ "images/favicon.svg" | absURL }}" />
 <link href="{{ $fontUrl }}" rel="stylesheet">
 {{- if $inServerMode }}
 {{- $css := resources.Get $sass | toCSS $cssOpts }}

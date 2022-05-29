@@ -60,20 +60,20 @@
 
           <div class="navbar-dropdown">
             {{- range .sublinks }}
-            <a href="{{ .url }}" class="navbar-item">
+            <a href="{{ .url }}" class="navbar-item" target="_blank">
               {{ .title }}
             </a>
             {{- end }}
           </div>
         </div>
         {{- else if .button }}
-        <a href="{{ .url }}" class="navbar-item">
+        <a href="{{ .url }}" class="navbar-item" target="_blank">
           <span class="button signup-button rounded secondary-btn raised">
             {{ .title }}
           </span>
         </a>
         {{- else }}
-        <a href="{{ .url }}" class="navbar-item is-secondary">
+        <a href="{{ .url }}" class="navbar-item is-secondary" target="_blank">
           {{ .title }}
         </a>
         {{- end }}
