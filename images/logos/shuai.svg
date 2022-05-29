@@ -1,0 +1,13 @@
+<svg height="80" width="80" version="1.1"
+     xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink">
+    <text x="0" y="54" style="fill:darkorange; font-size: 40px; font-family: monaco; font-weight: bold;">
+        {
+    </text>
+    <text x="20" y="54" style="fill:darkblue; font-size: 40px; font-family: monaco; font-weight: bold;">
+        帥
+    </text>
+    <text x="56" y="54" style="fill:darkorange; font-size: 40px; font-family: monaco; font-weight: bold;">
+        }
+    </text>
+</svg>
